@@ -1,1 +1,21 @@
 
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+div {
+    border: 1px solid black;
+    padding: 2%;
+}
+ul{
+    color:gray;
+    list-style-type: none;
+    justify-content:flex;
+    display:flex;
+    padding: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
