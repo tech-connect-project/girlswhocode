@@ -137,5 +137,91 @@ ul {
   font-size: 36px;
   color: #fcf125;
 
+  /*style for schedule page*/
+  
+  #schedule nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'poppins', sans-serif;
+}
 
+.title, .loc1, .loc2, .loc3, .footer {
+    border: 2px solid grey;
+    padding: 60px;
+}
 
+input {
+    width: 8%; 
+   cursor: pointer;
+    
+}
+.loc1, .loc2, .loc3 {
+    display: flex;
+    justify-content: space-between;
+}
+/*help with padding*/
+.bb {
+    display: block;
+    justify-content: space-around;
+    flex: 1;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#schedule h3 {
+    margin: 0px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.footer form {
+  text-align: center;
+  
+}
+.city span {
+    color: #fcf125;
+}
+.date {
+    display: flex;
+}
+
+.date h3 {
+    padding: 5px;
+}
+
+.num span {
+   font-size: 30px;
+}
+.month {
+    display: block;
+}
+.title {
+    background-color: #fcf125;
+}
+.loc1 {
+    background-image: url('images/fl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.loc2 {
+    background-image: url('images/ny.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.loc3 {
+    background-image: url('images/tx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#schedule .footer {
+    background-color: #e0deb3;
+}
+.footer h3 {
+    font-family: 'raleway', sans-serif;
+}
