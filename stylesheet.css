@@ -32,7 +32,7 @@ p{
 }
 
 .banner {
-  background-image: url("images/banner.jpeg");
+  background-image: url(images/banner.jpg");
   padding: 20%;
   margin-top: 0px;
   background-position: center;
@@ -124,7 +124,7 @@ ul {
 }
 
 .footer {
-  background-image: url("images/writing.jpeg");
+  background-image: url(images/writing.jpg);      
   padding: 10%;
   margin: 3%;
   background-position: center;
