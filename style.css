@@ -56,16 +56,16 @@
   text-align: center;
 }
 
-.about{
+#index .about{
   margin-top: 50px;
   margin-bottom: 0px;
 }
 
-.about h2{
+#index .about h2{
   text-decoration: underline;
 }
 
-.about p{
+#index .about p{
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -140,27 +140,27 @@
     /*style for schedule page*/
 
 
-.title, .loc1, .loc2, .loc3, .footer {
+#schedule .title, .loc1, .loc2, .loc3, .footer {
     border: 2px solid grey;
     padding: 60px;
     
 }
 
-h1 {
+#schedule h1 {
     font-family: 'raleway', sans-serif;
     text-align: center;
 }
-input {
-    
+  
+#schedule input {
    cursor: pointer;
-    
 }
-.loc1, .loc2, .loc3 {
+  
+#schedule .loc1, .loc2, .loc3 {
     display: flex;
     justify-content: space-between;
 }
 /*help with padding*/
-.bb {
+#schedule .bb {
     display: block;
     justify-content: space-around;
     flex: 1;
@@ -168,51 +168,51 @@ input {
     padding-top: 50px;
 }
 
-h3 {
+#schedule h3 {
     margin: 0px;
     display: inline;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
 
-.footer form {
+#schedule .footer form {
   text-align: center;
   
 }
-.city span {
+#schedule .city span {
     color: #fcf125;
 }
-.date {
+#schedule .date {
     display: flex;
     
 }
 
-.date h3 {
+#schedule .date h3 {
     padding: 5px;
 }
 
- .num span {
+#schedule .num span {
    font-size: 30px;
 }
-.month {
+#schedule .month {
     display: block;
 }
-.title {
+#schedule .title {
     background-color: #fcf125;
 }
-.loc1 {
+#schedule .loc1 {
     background-image: url('images/fl.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.loc2 {
+#schedule .loc2 {
     background-image: url('images/ny.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.loc3 {
+#schedule .loc3 {
     background-image: url('images/tx.jpg');
     background-repeat: no-repeat;
     background-size: cover;
