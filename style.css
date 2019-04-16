@@ -248,15 +248,12 @@
 }
 
 #contact form{
-    
-    width: 300px;
     margin:auto;
     border: 1px solid blue;
     font-family: "roboto", sans-serif;
 }
 
 #contact textarea{
-    
     width: 100%;
 }
 
