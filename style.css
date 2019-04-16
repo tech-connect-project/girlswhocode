@@ -224,3 +224,46 @@
 #schedule .footer h3 {
     font-family: 'raleway', sans-serif;
 }
+
+#contact .contact{
+    
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#contact label{
+
+    display: block;
+    margin: 5px auto;
+    font-size: 12px;
+}
+
+#contact input{
+    width: 100%;
+    height: 30px;
+    padding: 1%;
+    display: block;
+}
+
+#contact form{
+    
+    width: 300px;
+    margin:auto;
+    border: 1px solid blue;
+    font-family: "roboto", sans-serif;
+}
+
+#contact textarea{
+    
+    width: 100%;
+}
+
+#contact h2{
+    font-family: "raleway", sans-serif;
+}
+
+#contact h4,h3{
+    font-family: "roboto", sans-serif;
+}
