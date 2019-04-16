@@ -226,42 +226,54 @@
 }
 
 #contact .contact{
-    
-    justify-content: center;
-    width: 300px;
-    margin: auto;
-    text-align: center;
+
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  text-align: center;
 }
 
 #contact label{
 
-    display: block;
-    margin: 5px auto;
-    font-size: 12px;
+  display: block;
+  margin: 5px auto;
+  font-size: 12px;
 }
 
 #contact input{
-    width: 100%;
-    height: 30px;
-    padding: 1%;
-    display: block;
+  width: 100%;
+  height: 15px;
+  padding: 5%;
+  display: block;
 }
 
 #contact form{
-    width: 500px;
-    margin:auto;
-    border: 1px solid blue;
-    font-family: "roboto", sans-serif;
+  width: 50%;
+  margin:auto;
+  font-family: "roboto", sans-serif;
 }
 
 #contact textarea{
-    width: 100%;
+  width: 100%;
 }
 
 #contact h2{
-    font-family: "raleway", sans-serif;
+  font-family: "raleway", sans-serif;
 }
 
+#contact .connect img{
+    width:25px;
+    margin:auto;
+}
+
+#contact .connect{
+    padding: 1%;
+    position: absolute;
+    margin-bottom:-50%;
+    text-align: center;
+    width: 100%;
+  }
+
 #contact h4,h3{
-    font-family: "roboto", sans-serif;
+  font-family: "roboto", sans-serif;
 }
