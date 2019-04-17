@@ -266,14 +266,6 @@
     margin:auto;
 }
 
-#button {
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
 #contact .connect{
     padding: 1%;
     position: absolute;
